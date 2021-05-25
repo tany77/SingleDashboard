@@ -1,0 +1,76 @@
+:root {
+  --blue-1: #566787;
+  --blue-2: #299be4;
+
+  --white-1: #ffffff;
+  --white-2: #f8fcff;
+  --gray-1: #e2e2e2;
+  --gray-2: #676a85;
+
+  --font-family-1: "Nunito", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--font-family-1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 0;
+  color: var(--blue-1);
+}
+
+code {
+  font-family: var(--font-family-1), monospace;
+}
+
+table td {
+  color: var(--blue-1) !important;
+}
+table th {
+  background-color: var(--blue-2);
+  color: var(--white-1);
+}
+
+.table-hover tbody tr:hover td {
+  background-color: var(--gray-1);
+}
+
+table td:nth-child(3) {
+  width: 35%;
+}
+
+table td:nth-child(4) {
+  min-width: 7rem;
+}
+
+table td:nth-last-child(-n + 1) {
+  text-align: end;
+}
+
+.btn-primary {
+  background-color: var(--blue-2);
+  border: 1px solid var(--blue-2);
+  color: var(--white-1);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--blue-1);
+  border: 1px solid var(--blue-1);
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.btn-edit,
+.btn-delete {
+  border: none;
+}
+
+.btn-edit:hover,
+.btn-delete:hover {
+  background-color: var(--white-1);
+}
