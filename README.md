@@ -1,9 +1,5 @@
 # SingleDashboard
 Test pet project (.Net Core 5, React.js, Redux)
-
-Default admin user set in appsettings.json
-  login: admin@admin.com
-  password: Admin_123
   
 Bak-end:
 - .Net Core 5 API, Razor pages,
@@ -20,3 +16,6 @@ To run project:
 
 After first run database will be created with default roles and admin@admin.com user.
 
+Default admin user set in appsettings.json:
+- login: admin@admin.com
+- password: Admin_123
