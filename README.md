@@ -5,11 +5,11 @@ Default admin user set in appsettings.json
   login: admin@admin.com
   password: Admin_123
   
-Used frameworks:
- bak-end:
--.Net Core 5 API, Razor pages,
--.Net Core EF, Swagger
-front-end
+Bak-end:
+- .Net Core 5 API, Razor pages,
+- .Net Core EF, Swagger
+
+Front-end:
 - React.js, Redux
 - bootstrap
 
