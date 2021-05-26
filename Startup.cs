@@ -66,14 +66,14 @@ namespace TestWebApp
                     Description = "Chat API Swagger Surface",
                     Contact = new OpenApiContact
                     {
-                        Name = "João Victor Ignacio",
-                        Email = "ignaciojvig@gmail.com",
-                        Url = new Uri("https://www.linkedin.com/in/ignaciojv/")
+                        Name = "Admin",
+                        Email = "tanytest77@gmail.com",
+                        Url = new Uri("https://www.linkedin.com/")
                     },
                     License = new OpenApiLicense
                     {
-                        Name = "MIT",
-                        Url = new Uri("https://github.com/ignaciojvig/ChatAPI/blob/master/LICENSE")
+                        Name = "Admin",
+                        Url = new Uri("https://github.com/")
                     }
 
                 });
