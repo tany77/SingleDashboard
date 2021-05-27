@@ -19,3 +19,6 @@ After first run database will be created with default roles and admin@admin.com 
 Default admin user set in appsettings.json:
 - login: admin@admin.com
 - password: Admin_123
+
+Base url in ClientApp/src/services/api.js
+
