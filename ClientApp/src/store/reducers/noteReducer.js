@@ -60,6 +60,6 @@ export const note = (state = initialState, action) => {
             }
 
         default:
-            return { ...state }
+            return state
     }
 }
